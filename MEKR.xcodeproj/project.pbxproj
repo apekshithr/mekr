@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C76296F5240AF66C00D503E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76296F4240AF66C00D503E5 /* AppDelegate.swift */; };
+		C76296F7240AF66C00D503E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76296F6240AF66C00D503E5 /* SceneDelegate.swift */; };
+		C76296F9240AF66C00D503E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76296F8240AF66C00D503E5 /* ContentView.swift */; };
+		C76296FB240AF66E00D503E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76296FA240AF66E00D503E5 /* Assets.xcassets */; };
+		C76296FE240AF66E00D503E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76296FD240AF66E00D503E5 /* Preview Assets.xcassets */; };
+		C7629701240AF66E00D503E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76296FF240AF66E00D503E5 /* LaunchScreen.storyboard */; };
+		C762970C240AF66E00D503E5 /* MEKRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C762970B240AF66E00D503E5 /* MEKRTests.swift */; };
+		C7629717240AF66E00D503E5 /* MEKRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7629716240AF66E00D503E5 /* MEKRUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7629708240AF66E00D503E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C76296E9240AF66C00D503E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C76296F0240AF66C00D503E5;
+			remoteInfo = MEKR;
+		};
+		C7629713240AF66E00D503E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C76296E9240AF66C00D503E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C76296F0240AF66C00D503E5;
+			remoteInfo = MEKR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C76296F1240AF66C00D503E5 /* MEKR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEKR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76296F4240AF66C00D503E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C76296F6240AF66C00D503E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C76296F8240AF66C00D503E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C76296FA240AF66E00D503E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C76296FD240AF66E00D503E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7629700240AF66E00D503E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7629702240AF66E00D503E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7629707240AF66E00D503E5 /* MEKRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEKRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C762970B240AF66E00D503E5 /* MEKRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEKRTests.swift; sourceTree = "<group>"; };
+		C762970D240AF66E00D503E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7629712240AF66E00D503E5 /* MEKRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEKRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7629716240AF66E00D503E5 /* MEKRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEKRUITests.swift; sourceTree = "<group>"; };
+		C7629718240AF66E00D503E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76296EE240AF66C00D503E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7629704240AF66E00D503E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C762970F240AF66E00D503E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76296E8240AF66C00D503E5 = {
+			isa = PBXGroup;
+			children = (
+				C76296F3240AF66C00D503E5 /* MEKR */,
+				C762970A240AF66E00D503E5 /* MEKRTests */,
+				C7629715240AF66E00D503E5 /* MEKRUITests */,
+				C76296F2240AF66C00D503E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C76296F2240AF66C00D503E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76296F1240AF66C00D503E5 /* MEKR.app */,
+				C7629707240AF66E00D503E5 /* MEKRTests.xctest */,
+				C7629712240AF66E00D503E5 /* MEKRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76296F3240AF66C00D503E5 /* MEKR */ = {
+			isa = PBXGroup;
+			children = (
+				C76296F4240AF66C00D503E5 /* AppDelegate.swift */,
+				C76296F6240AF66C00D503E5 /* SceneDelegate.swift */,
+				C76296F8240AF66C00D503E5 /* ContentView.swift */,
+				C76296FA240AF66E00D503E5 /* Assets.xcassets */,
+				C76296FF240AF66E00D503E5 /* LaunchScreen.storyboard */,
+				C7629702240AF66E00D503E5 /* Info.plist */,
+				C76296FC240AF66E00D503E5 /* Preview Content */,
+			);
+			path = MEKR;
+			sourceTree = "<group>";
+		};
+		C76296FC240AF66E00D503E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C76296FD240AF66E00D503E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C762970A240AF66E00D503E5 /* MEKRTests */ = {
+			isa = PBXGroup;
+			children = (
+				C762970B240AF66E00D503E5 /* MEKRTests.swift */,
+				C762970D240AF66E00D503E5 /* Info.plist */,
+			);
+			path = MEKRTests;
+			sourceTree = "<group>";
+		};
+		C7629715240AF66E00D503E5 /* MEKRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7629716240AF66E00D503E5 /* MEKRUITests.swift */,
+				C7629718240AF66E00D503E5 /* Info.plist */,
+			);
+			path = MEKRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76296F0240AF66C00D503E5 /* MEKR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C762971B240AF66E00D503E5 /* Build configuration list for PBXNativeTarget "MEKR" */;
+			buildPhases = (
+				C76296ED240AF66C00D503E5 /* Sources */,
+				C76296EE240AF66C00D503E5 /* Frameworks */,
+				C76296EF240AF66C00D503E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEKR;
+			productName = MEKR;
+			productReference = C76296F1240AF66C00D503E5 /* MEKR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7629706240AF66E00D503E5 /* MEKRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C762971E240AF66E00D503E5 /* Build configuration list for PBXNativeTarget "MEKRTests" */;
+			buildPhases = (
+				C7629703240AF66E00D503E5 /* Sources */,
+				C7629704240AF66E00D503E5 /* Frameworks */,
+				C7629705240AF66E00D503E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7629709240AF66E00D503E5 /* PBXTargetDependency */,
+			);
+			name = MEKRTests;
+			productName = MEKRTests;
+			productReference = C7629707240AF66E00D503E5 /* MEKRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7629711240AF66E00D503E5 /* MEKRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7629721240AF66E00D503E5 /* Build configuration list for PBXNativeTarget "MEKRUITests" */;
+			buildPhases = (
+				C762970E240AF66E00D503E5 /* Sources */,
+				C762970F240AF66E00D503E5 /* Frameworks */,
+				C7629710240AF66E00D503E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7629714240AF66E00D503E5 /* PBXTargetDependency */,
+			);
+			name = MEKRUITests;
+			productName = MEKRUITests;
+			productReference = C7629712240AF66E00D503E5 /* MEKRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C76296E9240AF66C00D503E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Apekshith Ramesha";
+				TargetAttributes = {
+					C76296F0240AF66C00D503E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C7629706240AF66E00D503E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C76296F0240AF66C00D503E5;
+					};
+					C7629711240AF66E00D503E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C76296F0240AF66C00D503E5;
+					};
+				};
+			};
+			buildConfigurationList = C76296EC240AF66C00D503E5 /* Build configuration list for PBXProject "MEKR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C76296E8240AF66C00D503E5;
+			productRefGroup = C76296F2240AF66C00D503E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76296F0240AF66C00D503E5 /* MEKR */,
+				C7629706240AF66E00D503E5 /* MEKRTests */,
+				C7629711240AF66E00D503E5 /* MEKRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76296EF240AF66C00D503E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7629701240AF66E00D503E5 /* LaunchScreen.storyboard in Resources */,
+				C76296FE240AF66E00D503E5 /* Preview Assets.xcassets in Resources */,
+				C76296FB240AF66E00D503E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7629705240AF66E00D503E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7629710240AF66E00D503E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76296ED240AF66C00D503E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76296F5240AF66C00D503E5 /* AppDelegate.swift in Sources */,
+				C76296F7240AF66C00D503E5 /* SceneDelegate.swift in Sources */,
+				C76296F9240AF66C00D503E5 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7629703240AF66E00D503E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C762970C240AF66E00D503E5 /* MEKRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C762970E240AF66E00D503E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7629717240AF66E00D503E5 /* MEKRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7629709240AF66E00D503E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C76296F0240AF66C00D503E5 /* MEKR */;
+			targetProxy = C7629708240AF66E00D503E5 /* PBXContainerItemProxy */;
+		};
+		C7629714240AF66E00D503E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C76296F0240AF66C00D503E5 /* MEKR */;
+			targetProxy = C7629713240AF66E00D503E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C76296FF240AF66E00D503E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7629700240AF66E00D503E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7629719240AF66E00D503E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C762971A240AF66E00D503E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C762971C240AF66E00D503E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MEKR/Preview Content\"";
+				DEVELOPMENT_TEAM = 546556TDW5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MEKR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mekr.MEKR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C762971D240AF66E00D503E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MEKR/Preview Content\"";
+				DEVELOPMENT_TEAM = 546556TDW5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MEKR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mekr.MEKR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C762971F240AF66E00D503E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 546556TDW5;
+				INFOPLIST_FILE = MEKRTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mekr.MEKRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEKR.app/MEKR";
+			};
+			name = Debug;
+		};
+		C7629720240AF66E00D503E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 546556TDW5;
+				INFOPLIST_FILE = MEKRTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mekr.MEKRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEKR.app/MEKR";
+			};
+			name = Release;
+		};
+		C7629722240AF66E00D503E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 546556TDW5;
+				INFOPLIST_FILE = MEKRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mekr.MEKRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MEKR;
+			};
+			name = Debug;
+		};
+		C7629723240AF66E00D503E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 546556TDW5;
+				INFOPLIST_FILE = MEKRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mekr.MEKRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MEKR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76296EC240AF66C00D503E5 /* Build configuration list for PBXProject "MEKR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7629719240AF66E00D503E5 /* Debug */,
+				C762971A240AF66E00D503E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C762971B240AF66E00D503E5 /* Build configuration list for PBXNativeTarget "MEKR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C762971C240AF66E00D503E5 /* Debug */,
+				C762971D240AF66E00D503E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C762971E240AF66E00D503E5 /* Build configuration list for PBXNativeTarget "MEKRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C762971F240AF66E00D503E5 /* Debug */,
+				C7629720240AF66E00D503E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7629721240AF66E00D503E5 /* Build configuration list for PBXNativeTarget "MEKRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7629722240AF66E00D503E5 /* Debug */,
+				C7629723240AF66E00D503E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C76296E9240AF66C00D503E5 /* Project object */;
+}
